@@ -11,7 +11,6 @@ module.exports = {
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
-    __DEV__: 'readonly',
   },
   parser: 'babel-eslint',
   parserOptions: {
@@ -23,7 +22,8 @@ module.exports = {
   },
   plugins: [
     'react',
-    'prettier'
+    'prettier',
+    'react-hooks',
   ],
   rules: {
     'prettier/prettier': 'error',
@@ -33,7 +33,9 @@ module.exports = {
     ],
     'import/prefer-default-export': 'off',
     'react/state-in-constructor': 'off',
-    'react/static-property-placement': 'off',
-    'react/jsx-props-no-spreading': 'off',
+    'no-console': ["error", { allow: ["tron"] }],
+    'no-param-reassign': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
 };
