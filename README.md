@@ -9,9 +9,7 @@
 
  O Rocktshoes é uma single page feita em ReactJS, para mostrar os conhecimentos acerta de **React**, **Redux**, **Hooks** entre outras tecnologias.
 
-  <img alt="Rocktshoes" title="Rocktshoes" src="github.com/lucaslamar/rocktshoes-react/blob/master/src/assets/readme/demonstracao.gif"  />
-
-![]()
+  <img alt="Rocktshoes" title="Rocktshoes" src="https://github.com/lucaslamar/rocktshoes-react/blob/master/src/assets/readme/demonstracao.gif"  />
 
 ## Instalação
 
